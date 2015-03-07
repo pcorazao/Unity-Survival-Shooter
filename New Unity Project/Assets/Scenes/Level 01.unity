@@ -690,7 +690,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4fff99673a41e24439d527ad0bd6b569, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: .150999993
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1292,6 +1292,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8295316, guid: 2ecbed096f915419ea936e23e3e5d3b2, type: 2}
+      propertyPath: m_Volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8295316, guid: 2ecbed096f915419ea936e23e3e5d3b2, type: 2}
+      propertyPath: m_Pitch
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2ecbed096f915419ea936e23e3e5d3b2, type: 2}
   m_IsPrefabParent: 0
@@ -1316,7 +1324,7 @@ MonoBehaviour:
   damageImage: {fileID: 2081933233}
   deathClip: {fileID: 8300000, guid: d36a393bca4582043982db9089e1694f, type: 3}
   flashSpeed: 5
-  flashColour: {r: 1, g: 0, b: 0, a: .100000001}
+  flashColour: {r: 1, g: 0, b: 0, a: .278431386}
 --- !u!4 &2115287513
 Transform:
   m_PrefabParentObject: {fileID: 492780, guid: 2ecbed096f915419ea936e23e3e5d3b2, type: 2}
