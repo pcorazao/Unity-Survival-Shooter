@@ -1192,6 +1192,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeBetweenAttacks: .5
   attackDamage: 10
+--- !u!114 &1830723499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1830723491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b9d14572410594cb85d40eedfb150c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingHealth: 100
+  currentHealth: 0
+  sinkSpeed: 2.5
+  scoreValue: 10
+  deathClip: {fileID: 8300000, guid: 1d3bfb9269f136947bf8ac164cace1ff, type: 3}
 --- !u!1 &2081933231
 GameObject:
   m_ObjectHideFlags: 0
@@ -1292,39 +1308,17 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
-    - target: {fileID: 8295316, guid: 2ecbed096f915419ea936e23e3e5d3b2, type: 2}
-      propertyPath: m_Volume
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8295316, guid: 2ecbed096f915419ea936e23e3e5d3b2, type: 2}
-      propertyPath: m_Pitch
-      value: 1
-      objectReference: {fileID: 0}
+    - target: {fileID: 11467612, guid: 2ecbed096f915419ea936e23e3e5d3b2, type: 2}
+      propertyPath: healthSlider
+      value: 
+      objectReference: {fileID: 1111741370}
+    - target: {fileID: 11467612, guid: 2ecbed096f915419ea936e23e3e5d3b2, type: 2}
+      propertyPath: damageImage
+      value: 
+      objectReference: {fileID: 2081933233}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2ecbed096f915419ea936e23e3e5d3b2, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &2115287508
-GameObject:
-  m_PrefabParentObject: {fileID: 140230, guid: 2ecbed096f915419ea936e23e3e5d3b2, type: 2}
-  m_PrefabInternal: {fileID: 2115287507}
---- !u!114 &2115287509
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2115287508}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 544f2064df03e95419b4a5147c506b08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startingHealth: 100
-  currentHealth: 0
-  healthSlider: {fileID: 1111741370}
-  damageImage: {fileID: 2081933233}
-  deathClip: {fileID: 8300000, guid: d36a393bca4582043982db9089e1694f, type: 3}
-  flashSpeed: 5
-  flashColour: {r: 1, g: 0, b: 0, a: .278431386}
 --- !u!4 &2115287513
 Transform:
   m_PrefabParentObject: {fileID: 492780, guid: 2ecbed096f915419ea936e23e3e5d3b2, type: 2}
